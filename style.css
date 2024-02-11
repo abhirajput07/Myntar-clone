@@ -1,0 +1,169 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+body{
+    max-width: 100%;
+    height: 100%;
+}
+/* ********************Header********************* */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #ffffff;
+    border-bottom: 3px solid #c8c8c8;
+    overflow:visible;
+}
+.myntra-logo{
+    height: 36px;
+}
+.logo-container{
+    margin-left: 4%;
+}
+.action-bar{
+    margin-right: 4%;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    min-width: 500px;
+    justify-content: space-between;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #282c3f;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    padding: 26px 0;
+    transition: .1s ease;
+    border-bottom: 4px solid #fff;
+}
+.nav-bar a:hover{
+    border-bottom: 4px solid #ff3f6c;
+}
+.nav-bar a sup{
+    font-size: 9px;
+    text-transform: uppercase;
+    color: #ff3f6c;;
+}
+.search-bar{
+    height: 40px;
+    min-width: 400px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.search-icon{
+    box-sizing: content-box;
+    background-color: #f5f5f6;
+    height: 20px;
+    padding: 10px;
+    border-radius: 3px 0 0 3px;
+    font-weight:normal;
+}
+.search-input{
+    background-color: #f5f5f6;
+    color: #282c3f;
+    flex-grow: 1;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius:0 3px 3px 0;
+}
+.action-bar{
+    display: flex;
+    min-width: 180px;
+    justify-content: space-between;
+}
+.action-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.action-name{
+    font-size: 12px;
+}
+
+/* *******************Banner********************** */
+.banner-container{
+    margin-top: 30px;
+}
+.banner-img{
+    width: 100%;
+}
+/* *********Center Category heading*************** */
+.category-heading h1{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15rem;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 40px auto;
+    max-height: 5rem;
+    font-weight: 700;
+}
+
+/* *************Category items******************* */
+.category-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sale-img{
+    width: 240px;
+}
+
+/* *************Category heading 2************* */
+.category-img{
+    width: 100%;
+}
+
+/* *************Banner 2************* */
+.download-img{
+    width: 100%;
+}
+
+/* *********************footer***************** */
+.footer-container{
+    margin-top: 50px;
+    background-color: #e7e7e7;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.footer-column{
+    display: flex;
+    flex-direction: column;
+}
+.footer-column h5{
+    margin-bottom: 10px;
+}
+.footer-column a{
+    text-align: start;
+    text-decoration: none;
+    color: #282c3f;
+}
+.footer-column ul{
+    display: flex;
+    align-items: center;
+}
+.footer-column ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+.store{
+    width: 140px;
+}
+
+/* *********************Copyright***************** */
+.copyright{
+    text-align: center;
+    color: #999;
+}
+
